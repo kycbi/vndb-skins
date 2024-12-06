@@ -1,8 +1,3 @@
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Gugi&family=Noto+Sans+JP:wght@100..900&display=swap');
-</style>
-
-
 /* Global Var */
 :root {
   --replace-font-family: "Hiragino Sans GB", "Hiragino Kaku Gothic ProN", "Microsoft YaHei", "Apple SD Gothic Neo", system-ui, sans-serif;
@@ -10,7 +5,7 @@
 
 /* Background Image */
   body {
-    background-image: url(https://raw.githubusercontent.com/kycbi/vndb-skins/refs/heads/main/Still_MC02_24_11_01_001.png);
+    background-image: url(https://raw.githubusercontent.com/kycbi/vndb-skins/refs/heads/main/Still_MC02_24_11_01_001.png?token=GHSAT0AAAAAAC3QQGLHZXP2S3AT4MUDPVGMZ2SIZBQ);
   }
 body {
   background-size: cover;
