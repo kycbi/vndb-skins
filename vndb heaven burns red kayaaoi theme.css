@@ -1,0 +1,66 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Gugi&family=Noto+Sans+JP:wght@100..900&display=swap');
+</style>
+
+
+/* Global Var */
+:root {
+  --replace-font-family: "Hiragino Sans GB", "Hiragino Kaku Gothic ProN", "Microsoft YaHei", "Apple SD Gothic Neo", system-ui, sans-serif;
+}
+
+/* Background Image */
+  body {
+    background-image: url(https://www.dropbox.com/scl/fi/yry0qpkvpinetpu3cr1ln/Still_MC02_24_11_01_001.png?rlkey=sckpowkug0dux5eqy70rw71hj&st=ow71rln0&raw=1);
+  }
+body {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+}
+#bgright{background: none;}
+
+/* Replace fonts */
+p, div, span, input, select, h1, h2, h3, h4, h5, h6, a, b, td, dt, dd {
+  font-family: var(--replace-font-family) !important;
+}
+#header h1 a {
+  font-family: Gugi, Gotham, Futura, "Century New Gothic", var(--replace-font-family), Arial, Serif !important;
+  text-shadow: 1px 1px 1px white;
+  color:white;
+}
+footer, footer a {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+input.text, textarea {
+  font-family: Consolas, Yasolas, 'Courier New', monospace;
+}
+.homepage h1, main h1
+{
+  color:#3399ff;
+}
+
+/* Optimize notes area */
+textarea {
+  border: 1px solid white !important;
+}
+
+/* Re-align vnlist */
+label[for="collapse_vid"]:before {
+    content: "▸      " !important;
+    white-space: pre;
+}
+
+/* vnlist beautify */
+label b {
+    position: absolute;
+    padding-left: 18px;
+}
+
+html
+{
+  --footer:white;
+  --maintitle:white;
+  --link:#41caff;
+  --boxtitle:#3399ff;
+}

@@ -1,0 +1,48 @@
+// userid: u2  name: Angelic Serenade (dark blue)
+// ^ Must be the first line of skin files, read by VNDB::Skins.
+
+$bodybg: #000        // main background color
+$boxbg:  #071c30bc   // RGBA, background color of the boxes, stacked for menu box titles and odd row numers
+
+html
+  // text
+  --maintext:     #ddd  // primary text color (also used for the menu links)
+  --grayedout:    #37a  // color used for grayed-out/non-important things
+  --standout:     #e44  // color of 'stand-out' text
+  --link:         #7bd  // primary link color (not used for the menu links)
+  --statok:       #0c0  // generic 'ok' text color (used for vnlist statuses & category browser)
+  --statnok:      #c00  // generoc 'not ok' text color (used for above, and as border for NSFW screenshots)
+  --footer:       #247  // text color of the footer
+
+  // titles
+  --maintitle:    #135  // text color of the site title, set to '0' to hide the main title
+  --boxtitle:     #258  // box titles
+  --alttitle:     #fff  // alternative title
+
+  // bg colors
+  --bodybg:       #{$bodybg}
+  --boxbg:        #{$boxbg}
+  --tabbg:        #012  // background color of inactive tabs
+  --secbg:        #0d2741  // secondary background color (used on input fields and table headers)
+  --secborder:    #35A  // secondary border color (used on input fields)
+  --border:       #258  // primary border color
+
+  // misc colors
+  --diffadd:      #354  // background color of changes in the diff viewer
+  --diffdel:      #534
+  --warnbg:       #534  // background color of a warning box
+  --warnborder:   #c00  // ..border
+  --noticebg:     #052d2e  // notice box
+  --noticeborder: #227688  // ...and border
+  --helpbutton:   #06ffc5  // The (i) button in forms
+
+body
+  background: var(--bodybg) url(/s/angel-bg-xmas.jpg) no-repeat
+
+#bgright
+  background: url(/s/angel-right.jpg) no-repeat
+  width: 433px
+  height: 140px
+
+@import 'css/blendbg'
+@import 'css/v2'
